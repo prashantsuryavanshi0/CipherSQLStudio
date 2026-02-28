@@ -73,3 +73,15 @@ The core SQL execution and validation system is fully functional.
 ## Data Flow Diagram
 
 See docs/dataflow.jpg for the system architecture diagram.
+
+## Deployment Note
+
+This project is configured to use PostgreSQL locally via pgAdmin for development.
+
+To run the backend:
+- Ensure PostgreSQL is running locally.
+- Create the `users` table.
+- Set environment variables accordingly.
+
+Cloud deployment can be configured by replacing the PG_* environment variables with a hosted PostgreSQL provider.
+
